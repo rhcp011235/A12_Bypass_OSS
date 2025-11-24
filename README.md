@@ -52,11 +52,11 @@ Deploy the contents of the `server` directory from the release package to your w
 
 See [server/SETUP.md](server/SETUP.md) for detailed configuration steps.
 
-### 3. Client Configuration
+### 2. Client Configuration
 
 Update the `activator.py` script to point to your deployed server URL before running.
 
-### 4. Run the client tool
+### 3. Run the client tool
 ```
 sudo python3 client/activator.py
 ```
