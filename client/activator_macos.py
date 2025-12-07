@@ -314,7 +314,7 @@ def run(auto: bool = False, preset_guid: Optional[str] = None):
     # 8. Stage 1: reboot → copy to /Books/
     reboot_device()
     
-    time.sleep(5)
+    time.sleep(25)
     src = "/iTunes_Control/iTunes/iTunesMetadata.plist"
     dst = "/Books/iTunesMetadata.plist"
 
